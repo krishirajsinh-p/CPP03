@@ -6,7 +6,7 @@
 /*   By: kpuwar <kpuwar@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/30 03:02:09 by kpuwar            #+#    #+#             */
-/*   Updated: 2023/10/30 03:10:48 by kpuwar           ###   ########.fr       */
+/*   Updated: 2023/10/30 04:29:27 by kpuwar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 FragTrap::FragTrap(const string& name) : ClapTrap(name) {
 	this->hitPoints = 100;
-	this->energyPoints = 50;
-	this->attackDamage = 20;
+	this->energyPoints = 100;
+	this->attackDamage = 30;
 	cout << "Constructor for " << this->name << "(FragTrap) is called." << endl;
 }
 
