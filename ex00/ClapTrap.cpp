@@ -6,7 +6,7 @@
 /*   By: kpuwar <kpuwar@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/29 02:14:02 by kpuwar            #+#    #+#             */
-/*   Updated: 2023/10/29 04:54:44 by kpuwar           ###   ########.fr       */
+/*   Updated: 2023/10/30 01:30:18 by kpuwar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,6 @@ void ClapTrap::takeDamage(unsigned int amount) {
 		cout << "ClapTrap " << this->name << " takes damage -" << amount << " hit points." << endl;
 		this->hitPoints -= amount;
 	} else {
-		cout << "ClapTrap " << this->name << " can't take more damage. It only has only " << this->hitPoints << " hit points." << endl;
-		this->beRepaired(10);
+		cout << "ClapTrap " << this->name << " doesn't have hits points to take damage :(" << endl;
 	}
 }
