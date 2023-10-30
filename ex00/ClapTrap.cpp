@@ -6,7 +6,7 @@
 /*   By: kpuwar <kpuwar@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/29 02:14:02 by kpuwar            #+#    #+#             */
-/*   Updated: 2023/10/30 01:30:18 by kpuwar           ###   ########.fr       */
+/*   Updated: 2023/10/30 02:52:39 by kpuwar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,13 +20,13 @@ ClapTrap::ClapTrap(string name) {
 	cout << "Constructor for " << this->name << " is called." << endl;
 }
 
-ClapTrap::~ClapTrap() {
+ClapTrap::~ClapTrap(void) {
 	cout << "Destructor for " << this->name << " is called." << endl;
 }
 
 void ClapTrap::attack(const string& target) {
 	if (energyPoints > 0) {
-		cout << "ClapTrap " << this->name << " attacks " << target << ", causing " << this->attackDamage << " points of damage!" << endl;
+		cout << "ClapTrap " << this->name << " attacks " << target << endl;
 		this->energyPoints--;
 	} else {
 		cout << "ClapTrap " << this->name << " doesn't have energy points to attack :(" << endl;

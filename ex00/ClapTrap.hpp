@@ -6,7 +6,7 @@
 /*   By: kpuwar <kpuwar@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/29 02:14:09 by kpuwar            #+#    #+#             */
-/*   Updated: 2023/10/30 01:24:32 by kpuwar           ###   ########.fr       */
+/*   Updated: 2023/10/30 02:46:41 by kpuwar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ class ClapTrap
 
 	public:
 		ClapTrap(string name);
-		~ClapTrap();
+		~ClapTrap(void);
 
 		void attack(const string& target);
 		void takeDamage(unsigned int amount);

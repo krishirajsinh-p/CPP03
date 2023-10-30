@@ -6,11 +6,11 @@
 #    By: kpuwar <kpuwar@student.42heilbronn.de>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/29 02:13:57 by kpuwar            #+#    #+#              #
-#    Updated: 2023/10/29 04:57:45 by kpuwar           ###   ########.fr        #
+#    Updated: 2023/10/30 04:25:13 by kpuwar           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = ClapTrapv2
+NAME = ScavTrap
 
 CC = c++
 CFLAGS = -Wextra -Wall -Werror -std=c++98
